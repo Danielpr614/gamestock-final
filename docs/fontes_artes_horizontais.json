@@ -1,0 +1,502 @@
+[
+  {
+    "imagem": "steam_1593500.jpg",
+    "arquivo": "cards/steam_1593500.jpg",
+    "fonte": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1593500/capsule_616x353.jpg?t=1763059412",
+    "pagina": "https://store.steampowered.com/app/1593500/?cc=br&l=brazilian",
+    "dimensoes": [
+      616,
+      353
+    ],
+    "proporcao": 1.745
+  },
+  {
+    "imagem": "steam_1245620.jpg",
+    "arquivo": "cards/steam_1245620.jpg",
+    "fonte": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/f0b19c231f86fa0e633ff88a1a63459443017728/header_alt_assets_3.jpg?t=1790290043",
+    "pagina": "https://store.steampowered.com/app/1245620/?cc=br&l=brazilian",
+    "dimensoes": [
+      460,
+      215
+    ],
+    "proporcao": 2.14
+  },
+  {
+    "imagem": "steam_1091500.jpg",
+    "arquivo": "cards/steam_1091500.jpg",
+    "fonte": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/e9047d8ec47ae3d94bb8b464fb0fc9e9972b4ac7/header.jpg?t=1784714077",
+    "pagina": "https://store.steampowered.com/app/1091500/?cc=br&l=brazilian",
+    "dimensoes": [
+      460,
+      215
+    ],
+    "proporcao": 2.14
+  },
+  {
+    "imagem": "steam_1174180.jpg",
+    "arquivo": "cards/steam_1174180.jpg",
+    "fonte": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+    "pagina": "https://store.steampowered.com/app/1174180/?cc=br&l=brazilian",
+    "dimensoes": [
+      616,
+      353
+    ],
+    "proporcao": 1.745
+  },
+  {
+    "imagem": "steam_292030.jpg",
+    "arquivo": "cards/steam_292030.jpg",
+    "fonte": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/e8afc4252e3fee8ed2525ab2fd7675cca39aa38d/header_alt_assets_1.jpg?t=1790845156",
+    "pagina": "https://store.steampowered.com/app/292030/?cc=br&l=brazilian",
+    "dimensoes": [
+      460,
+      215
+    ],
+    "proporcao": 2.14
+  },
+  {
+    "imagem": "steam_367520.jpg",
+    "arquivo": "cards/steam_367520.jpg",
+    "fonte": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/3c3489495136b26b34f8a9543c7f5645b99d388c/header.jpg?t=1776125684",
+    "pagina": "https://store.steampowered.com/app/367520/?cc=br&l=brazilian",
+    "dimensoes": [
+      460,
+      215
+    ],
+    "proporcao": 2.14
+  },
+  {
+    "imagem": "steam_413150.jpg",
+    "arquivo": "cards/steam_413150.jpg",
+    "fonte": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/capsule_616x353.jpg?t=1786554168",
+    "pagina": "https://store.steampowered.com/app/413150/?cc=br&l=brazilian",
+    "dimensoes": [
+      616,
+      353
+    ],
+    "proporcao": 1.745
+  },
+  {
+    "imagem": "steam_244210.jpg",
+    "arquivo": "cards/steam_244210.jpg",
+    "fonte": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244210/capsule_616x353.jpg?t=1782208838",
+    "pagina": "https://store.steampowered.com/app/244210/?cc=br&l=brazilian",
+    "dimensoes": [
+      616,
+      353
+    ],
+    "proporcao": 1.745
+  },
+  {
+    "imagem": "steam_289070.jpg",
+    "arquivo": "cards/steam_289070.jpg",
+    "fonte": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/capsule_616x353.jpg?t=1784651829",
+    "pagina": "https://store.steampowered.com/app/289070/?cc=br&l=brazilian",
+    "dimensoes": [
+      616,
+      353
+    ],
+    "proporcao": 1.745
+  },
+  {
+    "imagem": "steam_105600.jpg",
+    "arquivo": "cards/steam_105600.jpg",
+    "fonte": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/capsule_616x353.jpg?t=1769844435",
+    "pagina": "https://store.steampowered.com/app/105600/?cc=br&l=brazilian",
+    "dimensoes": [
+      616,
+      353
+    ],
+    "proporcao": 1.745
+  },
+  {
+    "imagem": "ps_ragnarok.jpg",
+    "arquivo": "cards/ps_ragnarok.jpg",
+    "fonte": "https://gmedia.playstation.com/is/image/SIEPDC/god-of-war-ragnarok-valhalla-hero-banner-desktop-01-en-11dec23?wid=1200&fmt=jpeg&fit=constrain",
+    "pagina": "https://www.playstation.com/pt-br/games/god-of-war-ragnarok/",
+    "dimensoes": [
+      1200,
+      449
+    ],
+    "proporcao": 2.673
+  },
+  {
+    "imagem": "ps_spiderman.jpg",
+    "arquivo": "cards/ps_spiderman.jpg",
+    "fonte": "https://gmedia.playstation.com/is/image/SIEPDC/spider-man-2-hero-banner-desktop-01-en-31may23?wid=1200&fmt=jpeg&fit=constrain",
+    "pagina": "https://www.playstation.com/pt-br/games/marvels-spider-man-2/",
+    "dimensoes": [
+      1200,
+      449
+    ],
+    "proporcao": 2.673
+  },
+  {
+    "imagem": "ps_gt7.jpg",
+    "arquivo": "cards/ps_gt7.jpg",
+    "fonte": "https://gmedia.playstation.com/is/image/SIEPDC/gran-turismo-7-hero-banner-desktop-01-en-29sep21?wid=1200&fmt=jpeg&fit=constrain",
+    "pagina": "https://www.playstation.com/pt-br/games/gran-turismo-7/",
+    "dimensoes": [
+      1200,
+      449
+    ],
+    "proporcao": 2.673
+  },
+  {
+    "imagem": "ps_tlou.jpg",
+    "arquivo": "cards/ps_tlou.jpg",
+    "fonte": "https://gmedia.playstation.com/is/image/SIEPDC/the-last-of-us-part-i-hero-banner-desktop-01-en-18may22?wid=1200&fmt=jpeg&fit=constrain",
+    "pagina": "https://www.playstation.com/pt-br/games/the-last-of-us-part-i/",
+    "dimensoes": [
+      1200,
+      449
+    ],
+    "proporcao": 2.673
+  },
+  {
+    "imagem": "ps_horizon.jpg",
+    "arquivo": "cards/ps_horizon.jpg",
+    "fonte": "https://gmedia.playstation.com/is/image/SIEPDC/horizon-forbidden-west-hero-banner-desktop-01-en-07may21?wid=1200&fmt=jpeg&fit=constrain",
+    "pagina": "https://www.playstation.com/pt-br/games/horizon-forbidden-west/",
+    "dimensoes": [
+      1200,
+      449
+    ],
+    "proporcao": 2.673
+  },
+  {
+    "imagem": "xb_forza.jpg",
+    "arquivo": "cards/xb_forza.jpg",
+    "fonte": "https://store-images.s-microsoft.com/image/apps.19144.13718773309227929.bebdcc0e-1ed5-4778-8732-f4ef65a2f445.08f6abcd-96f3-4d91-877e-dc834b74132d",
+    "pagina": "https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=9NKX70BBCDRN&market=BR&languages=pt-br",
+    "dimensoes": [
+      1920,
+      1080
+    ],
+    "proporcao": 1.778
+  },
+  {
+    "imagem": "xb_halo.jpg",
+    "arquivo": "cards/xb_halo.jpg",
+    "fonte": "https://store-images.s-microsoft.com/image/apps.24990.13727851868390641.c9cc5f66-aff8-406c-af6b-440838730be0.e136fdbb-a54f-4906-9712-e6313077f1f7",
+    "pagina": "https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=9NP1P1WFS0LB&market=BR&languages=pt-br",
+    "dimensoes": [
+      1920,
+      1080
+    ],
+    "proporcao": 1.778
+  },
+  {
+    "imagem": "xb_gears.jpg",
+    "arquivo": "cards/xb_gears.jpg",
+    "fonte": "https://store-images.s-microsoft.com/image/apps.14219.65494054591008504.4eae27ba-1cfe-4af2-950a-4af81f8cd22a.ae105753-7c62-438b-aef3-8602330fb347",
+    "pagina": "https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=C2KDNLT2H7DM&market=BR&languages=pt-br",
+    "dimensoes": [
+      1920,
+      1080
+    ],
+    "proporcao": 1.778
+  },
+  {
+    "imagem": "xb_ori.jpg",
+    "arquivo": "cards/xb_ori.jpg",
+    "fonte": "https://store-images.s-microsoft.com/image/apps.9816.14047496556148589.9fda5cef-7995-4dbb-a626-66d2ab3feb4f.a97f3b6a-14f3-4905-887c-ecfe1c6da59d",
+    "pagina": "https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=9n8cd0xzklp4&market=BR&languages=pt-br",
+    "dimensoes": [
+      1920,
+      1080
+    ],
+    "proporcao": 1.778
+  },
+  {
+    "imagem": "xb_sea.jpg",
+    "arquivo": "cards/xb_sea.jpg",
+    "fonte": "https://store-images.s-microsoft.com/image/apps.32209.14554784103656548.069efce3-9249-4074-a169-183b727043f8.2ca2f111-9ae6-467c-a71f-78c7c2ddd77e",
+    "pagina": "https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=9p2n57mc619k&market=BR&languages=pt-br",
+    "dimensoes": [
+      1920,
+      1080
+    ],
+    "proporcao": 1.778
+  },
+  {
+    "imagem": "ni_mario.jpg",
+    "arquivo": "cards/ni_mario.jpg",
+    "fonte": "https://assets.nintendo.com/image/upload/q_auto/f_auto/store/software/switch/70010000001130/c42553b4fd0312c31e70ec7468c6c9bccd739f340152925b9600631f2d29f8b5",
+    "proporcao": 1.778
+  },
+  {
+    "imagem": "ni_kart.jpg",
+    "arquivo": "cards/ni_kart.jpg",
+    "fonte": "https://assets.nintendo.com/image/upload/q_auto/f_auto/store/software/switch/70010000000153/de697f487a36d802dd9a5ff0341f717c8486221f2f1219b675af37aca63bc453",
+    "proporcao": 1.778
+  },
+  {
+    "imagem": "ni_zelda.jpg",
+    "arquivo": "cards/ni_zelda.jpg",
+    "fonte": "https://assets.nintendo.com/image/upload/q_auto/f_auto/store/software/switch/70010000000025/7137262b5a64d921e193653f8aa0b722925abc5680380ca0e18a5cfd91697f58",
+    "proporcao": 1.778
+  },
+  {
+    "imagem": "ni_animal.jpg",
+    "arquivo": "cards/ni_animal.jpg",
+    "fonte": "https://assets.nintendo.com/image/upload/q_auto/f_auto/store/software/switch/70010000027619/9989957eae3a6b545194c42fec2071675c34aadacd65e6b33fdfe7b3b6a86c3a",
+    "proporcao": 1.778
+  },
+  {
+    "imagem": "ni_smash.jpg",
+    "arquivo": "cards/ni_smash.jpg",
+    "fonte": "https://assets.nintendo.com/image/upload/q_auto/f_auto/store/software/switch/70010000012332/ac4d1fc9824876ce756406f0525d50c57ded4b2a666f6dfe40a6ac5c3563fad9",
+    "proporcao": 1.778
+  },
+  {
+    "imagem": "new_steam_553850.jpg",
+    "arquivo": "cards/new_steam_553850.jpg",
+    "fonte": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/850e2f9e5bb15c5706bb9a1edc832f4f782e8be5/header.jpg?t=1789585784",
+    "pagina": "https://store.steampowered.com/app/553850/?cc=br&l=brazilian",
+    "dimensoes": [
+      460,
+      215
+    ],
+    "proporcao": 2.14
+  },
+  {
+    "imagem": "new_steam_2358720.jpg",
+    "arquivo": "cards/new_steam_2358720.jpg",
+    "fonte": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/capsule_616x353.jpg?t=1760601605",
+    "pagina": "https://store.steampowered.com/app/2358720/?cc=br&l=brazilian",
+    "dimensoes": [
+      616,
+      353
+    ],
+    "proporcao": 1.745
+  },
+  {
+    "imagem": "new_steam_2679460.jpg",
+    "arquivo": "cards/new_steam_2679460.jpg",
+    "fonte": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2679460/capsule_616x353.jpg?t=1764776325",
+    "pagina": "https://store.steampowered.com/app/2679460/?cc=br&l=brazilian",
+    "dimensoes": [
+      616,
+      353
+    ],
+    "proporcao": 1.745
+  },
+  {
+    "imagem": "new_steam_2909400.jpg",
+    "arquivo": "cards/new_steam_2909400.jpg",
+    "fonte": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/64a1006a85342c7d3e4b1e1b8e562fee2dc86578/header.jpg?t=1789446799",
+    "pagina": "https://store.steampowered.com/app/2909400/?cc=br&l=brazilian",
+    "dimensoes": [
+      460,
+      215
+    ],
+    "proporcao": 2.14
+  },
+  {
+    "imagem": "new_steam_2246340.jpg",
+    "arquivo": "cards/new_steam_2246340.jpg",
+    "fonte": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/capsule_616x353.jpg?t=1787549555",
+    "pagina": "https://store.steampowered.com/app/2246340/?cc=br&l=brazilian",
+    "dimensoes": [
+      616,
+      353
+    ],
+    "proporcao": 1.745
+  },
+  {
+    "imagem": "new_steam_1903340.jpg",
+    "arquivo": "cards/new_steam_1903340.jpg",
+    "fonte": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1903340/be3305b02d4db0dffa3458537118423bf2792d7e/header.jpg?t=1782830877",
+    "pagina": "https://store.steampowered.com/app/1903340/?cc=br&l=brazilian",
+    "dimensoes": [
+      460,
+      215
+    ],
+    "proporcao": 2.14
+  },
+  {
+    "imagem": "new_steam_1145350.jpg",
+    "arquivo": "cards/new_steam_1145350.jpg",
+    "fonte": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/91ac334a2c137d08968ccc0bc474a02579602100/header.jpg?t=1779901265",
+    "pagina": "https://store.steampowered.com/app/1145350/?cc=br&l=brazilian",
+    "dimensoes": [
+      460,
+      215
+    ],
+    "proporcao": 2.14
+  },
+  {
+    "imagem": "new_steam_1030300.jpg",
+    "arquivo": "cards/new_steam_1030300.jpg",
+    "fonte": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030300/7983574d464e6559ac7e24275727f73a8bcca1f3/header.jpg?t=1776125736",
+    "pagina": "https://store.steampowered.com/app/1030300/?cc=br&l=brazilian",
+    "dimensoes": [
+      460,
+      215
+    ],
+    "proporcao": 2.14
+  },
+  {
+    "imagem": "new_steam_1771300.jpg",
+    "arquivo": "cards/new_steam_1771300.jpg",
+    "fonte": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/capsule_616x353.jpg?t=1777975568",
+    "pagina": "https://store.steampowered.com/app/1771300/?cc=br&l=brazilian",
+    "dimensoes": [
+      616,
+      353
+    ],
+    "proporcao": 1.745
+  },
+  {
+    "imagem": "new_steam_3764200.jpg",
+    "arquivo": "cards/new_steam_3764200.jpg",
+    "fonte": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/ce5437442768e38eb575f205ab9397d0264017b0/header.jpg?t=1779840172",
+    "pagina": "https://store.steampowered.com/app/3764200/?cc=br&l=brazilian",
+    "dimensoes": [
+      460,
+      215
+    ],
+    "proporcao": 2.14
+  },
+  {
+    "imagem": "new_steam_3321460.jpg",
+    "arquivo": "cards/new_steam_3321460.jpg",
+    "fonte": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/236f3814be7a97d86831800691b6096d449222a8/header.jpg?t=1789020763",
+    "pagina": "https://store.steampowered.com/app/3321460/?cc=br&l=brazilian",
+    "dimensoes": [
+      460,
+      215
+    ],
+    "proporcao": 2.14
+  },
+  {
+    "imagem": "new_steam_2001120.jpg",
+    "arquivo": "cards/new_steam_2001120.jpg",
+    "fonte": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/header.jpg?t=1763484567",
+    "pagina": "https://store.steampowered.com/app/2001120/?cc=br&l=brazilian",
+    "dimensoes": [
+      460,
+      215
+    ],
+    "proporcao": 2.14
+  },
+  {
+    "imagem": "ps_astro.png",
+    "arquivo": "cards/ps_astro.jpg",
+    "fonte": "https://gmedia.playstation.com/is/image/SIEPDC/astro-bot-hero-desktop-01-en-23may24?wid=1200&fmt=jpeg&fit=constrain",
+    "pagina": "https://www.playstation.com/pt-br/games/astro-bot/",
+    "dimensoes": [
+      1200,
+      449
+    ],
+    "proporcao": 2.673
+  },
+  {
+    "imagem": "ps_stellar.png",
+    "arquivo": "cards/ps_stellar.jpg",
+    "fonte": "https://gmedia.playstation.com/is/image/SIEPDC/stellar-blade-video-desktop-hero-1920x1080-01-en-12jan24-1?wid=1200&fmt=jpeg&fit=constrain",
+    "pagina": "https://www.playstation.com/pt-br/games/stellar-blade/",
+    "dimensoes": [
+      1200,
+      675
+    ],
+    "proporcao": 1.778
+  },
+  {
+    "imagem": "ps_ds2.png",
+    "arquivo": "cards/ps_ds2.jpg",
+    "fonte": "https://gmedia.playstation.com/is/image/SIEPDC/death-stranding-2-hero-desktop-01-en-10mar25?wid=1200&fmt=jpeg&fit=constrain",
+    "pagina": "https://www.playstation.com/pt-br/games/death-stranding-2-on-the-beach/",
+    "dimensoes": [
+      1200,
+      449
+    ],
+    "proporcao": 2.673
+  },
+  {
+    "imagem": "ps_yotei.png",
+    "arquivo": "cards/ps_yotei.jpg",
+    "fonte": "https://gmedia.playstation.com/is/image/SIEPDC/ghost-of-yotei-hero-desktop-01-ps5-en-27sept24?wid=1200&fmt=jpeg&fit=constrain",
+    "pagina": "https://www.playstation.com/pt-br/games/ghost-of-yotei/",
+    "dimensoes": [
+      1200,
+      449
+    ],
+    "proporcao": 2.673
+  },
+  {
+    "imagem": "xb_indiana.jpg",
+    "arquivo": "cards/xb_indiana.jpg",
+    "fonte": "https://store-images.s-microsoft.com/image/apps.48711.14050533476382116.9ce9be62-6690-4c40-8e76-7e5af2a256fb.d44f3473-b06b-4b62-a634-ac015814631f",
+    "pagina": "https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=9N8FQ28Z6QX3&market=BR&languages=pt-br",
+    "dimensoes": [
+      1920,
+      1080
+    ],
+    "proporcao": 1.778
+  },
+  {
+    "imagem": "xb_senua.jpg",
+    "arquivo": "cards/xb_senua.jpg",
+    "fonte": "https://store-images.s-microsoft.com/image/apps.8044.14301289549560004.f1ff7c98-dc44-454c-bfda-7a6374c95761.632af28d-482d-4bbd-90f2-e5f804071b7a",
+    "pagina": "https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=9PMBB7NGHV95&market=BR&languages=pt-br",
+    "dimensoes": [
+      1920,
+      1080
+    ],
+    "proporcao": 1.778
+  },
+  {
+    "imagem": "xb_avowed.jpg",
+    "arquivo": "cards/xb_avowed.jpg",
+    "fonte": "https://store-images.s-microsoft.com/image/apps.6237.13624715126573049.35e3abd5-bd41-4efb-bc2a-0bfbdd50b02a.2e9ecb7e-cb8a-4522-9d87-f8e21a713773",
+    "pagina": "https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=9MSVPJCHHRPR&market=BR&languages=pt-br",
+    "dimensoes": [
+      1920,
+      1080
+    ],
+    "proporcao": 1.778
+  },
+  {
+    "imagem": "xb_doom.jpg",
+    "arquivo": "cards/xb_doom.jpg",
+    "fonte": "https://store-images.s-microsoft.com/image/apps.33609.14239344665439398.f72b7e9e-0a95-4e76-b1e3-8989c4d70e2e.eb5bff7c-1207-4e80-99d8-0e1cd50f04ea",
+    "pagina": "https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=9PH9X0760B0T&market=BR&languages=pt-br",
+    "dimensoes": [
+      1920,
+      1080
+    ],
+    "proporcao": 1.778
+  },
+  {
+    "imagem": "ni_echoes.jpg",
+    "arquivo": "cards/ni_echoes.jpg",
+    "fonte": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_jpg/dpr_1.0/store/software/switch/70010000084618/e3a49cf14180cec09c515595fb7121b048a0f8327eae2d248909d0f0c64a9dc9",
+    "proporcao": 1.778
+  },
+  {
+    "imagem": "ni_brothership.jpg",
+    "arquivo": "cards/ni_brothership.jpg",
+    "fonte": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_jpg/dpr_1.0/store/software/switch/70010000084613/9afc95d7bb55198b983e6942649af01932c45df112e8b8842e0578143dcdeaeb",
+    "proporcao": 1.778
+  },
+  {
+    "imagem": "ni_bananza.jpg",
+    "arquivo": "cards/ni_bananza.jpg",
+    "fonte": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_jpg/dpr_1.0/store/software/switch2/70010000096809/c103f1be80b02409d0ebd7b1411bad3f7a5d7cadea6974af2158fbf04e0a3410",
+    "proporcao": 1.778
+  },
+  {
+    "imagem": "ni_world.jpg",
+    "arquivo": "cards/ni_world.jpg",
+    "fonte": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_jpg/dpr_1.0/store/software/switch2/70010000095431/1bba0e9570d208bf3b3e0435f79791e2e997c0f7450a61faff8c3b37c2d24d0f",
+    "proporcao": 1.778
+  },
+  {
+    "imagem": "ni_pokemon.jpg",
+    "arquivo": "cards/ni_pokemon.jpg",
+    "fonte": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_jpg/dpr_1.0/store/software/switch/70010000094234/357e68d5f1e168a213f3b2db2dda7da9e0ba2c0f0900360cc72c3f90649f7091",
+    "proporcao": 1.778
+  }
+]

@@ -1,0 +1,1803 @@
+{
+  "date": "2026-10-24",
+  "environment": {
+    "php": "8.3.6",
+    "database": "MariaDB 10.11.14",
+    "browser": "Chromium 131 headless via Playwright",
+    "isolation": "Banco descartável; dados do aluno não utilizados."
+  },
+  "backend": [
+    {
+      "case": "Fresh installation: six tables",
+      "passed": true
+    },
+    {
+      "case": "Seed: 50 games",
+      "passed": true
+    },
+    {
+      "case": "Seed: 12 categories",
+      "passed": true
+    },
+    {
+      "case": "Seed: valid password hashes",
+      "passed": true
+    },
+    {
+      "case": "Catalog page 1",
+      "passed": true
+    },
+    {
+      "case": "Catalog page 2",
+      "passed": true
+    },
+    {
+      "case": "Catalog page 3",
+      "passed": true
+    },
+    {
+      "case": "Catalog page 4",
+      "passed": true
+    },
+    {
+      "case": "Catalog page 5",
+      "passed": true
+    },
+    {
+      "case": "Pagination: all 50 without repetition",
+      "passed": true
+    },
+    {
+      "case": "Reject malformed query page=0",
+      "passed": true
+    },
+    {
+      "case": "Reject malformed query page=-1",
+      "passed": true
+    },
+    {
+      "case": "Reject malformed query page=abc",
+      "passed": true
+    },
+    {
+      "case": "Reject malformed query page[]=1",
+      "passed": true
+    },
+    {
+      "case": "Reject malformed query sort=DROP TABLE game",
+      "passed": true
+    },
+    {
+      "case": "Reject malformed query category=-1",
+      "passed": true
+    },
+    {
+      "case": "Reject malformed query category[]=1",
+      "passed": true
+    },
+    {
+      "case": "Reject malformed query platform=Invalid",
+      "passed": true
+    },
+    {
+      "case": "Reject malformed query q[]=name",
+      "passed": true
+    },
+    {
+      "case": "Reject malformed query q=xxxxxxxxxxxxxxx",
+      "passed": true
+    },
+    {
+      "case": "Reject malformed query r[]=home",
+      "passed": true
+    },
+    {
+      "case": "Literal search %",
+      "passed": true
+    },
+    {
+      "case": "Literal search _",
+      "passed": true
+    },
+    {
+      "case": "Literal search ' OR 1=1 --",
+      "passed": true
+    },
+    {
+      "case": "Literal search <script>alert(1)</script>",
+      "passed": true
+    },
+    {
+      "case": "Platform filter PC",
+      "passed": true
+    },
+    {
+      "case": "Platform filter PlayStation",
+      "passed": true
+    },
+    {
+      "case": "Platform filter Xbox",
+      "passed": true
+    },
+    {
+      "case": "Platform filter Nintendo",
+      "passed": true
+    },
+    {
+      "case": "Category 1 / title",
+      "passed": true
+    },
+    {
+      "case": "Category 1 / price_asc",
+      "passed": true
+    },
+    {
+      "case": "Category 1 / price_desc",
+      "passed": true
+    },
+    {
+      "case": "Category 2 / title",
+      "passed": true
+    },
+    {
+      "case": "Category 2 / price_asc",
+      "passed": true
+    },
+    {
+      "case": "Category 2 / price_desc",
+      "passed": true
+    },
+    {
+      "case": "Category 3 / title",
+      "passed": true
+    },
+    {
+      "case": "Category 3 / price_asc",
+      "passed": true
+    },
+    {
+      "case": "Category 3 / price_desc",
+      "passed": true
+    },
+    {
+      "case": "Category 4 / title",
+      "passed": true
+    },
+    {
+      "case": "Category 4 / price_asc",
+      "passed": true
+    },
+    {
+      "case": "Category 4 / price_desc",
+      "passed": true
+    },
+    {
+      "case": "Category 5 / title",
+      "passed": true
+    },
+    {
+      "case": "Category 5 / price_asc",
+      "passed": true
+    },
+    {
+      "case": "Category 5 / price_desc",
+      "passed": true
+    },
+    {
+      "case": "Category 6 / title",
+      "passed": true
+    },
+    {
+      "case": "Category 6 / price_asc",
+      "passed": true
+    },
+    {
+      "case": "Category 6 / price_desc",
+      "passed": true
+    },
+    {
+      "case": "Category 7 / title",
+      "passed": true
+    },
+    {
+      "case": "Category 7 / price_asc",
+      "passed": true
+    },
+    {
+      "case": "Category 7 / price_desc",
+      "passed": true
+    },
+    {
+      "case": "Category 11 / title",
+      "passed": true
+    },
+    {
+      "case": "Category 11 / price_asc",
+      "passed": true
+    },
+    {
+      "case": "Category 11 / price_desc",
+      "passed": true
+    },
+    {
+      "case": "Category 8 / title",
+      "passed": true
+    },
+    {
+      "case": "Category 8 / price_asc",
+      "passed": true
+    },
+    {
+      "case": "Category 8 / price_desc",
+      "passed": true
+    },
+    {
+      "case": "Category 9 / title",
+      "passed": true
+    },
+    {
+      "case": "Category 9 / price_asc",
+      "passed": true
+    },
+    {
+      "case": "Category 9 / price_desc",
+      "passed": true
+    },
+    {
+      "case": "Category 10 / title",
+      "passed": true
+    },
+    {
+      "case": "Category 10 / price_asc",
+      "passed": true
+    },
+    {
+      "case": "Category 10 / price_desc",
+      "passed": true
+    },
+    {
+      "case": "Category 12 / title",
+      "passed": true
+    },
+    {
+      "case": "Category 12 / price_asc",
+      "passed": true
+    },
+    {
+      "case": "Category 12 / price_desc",
+      "passed": true
+    },
+    {
+      "case": "Guest blocked admin",
+      "passed": true
+    },
+    {
+      "case": "Customer blocked admin",
+      "passed": true
+    },
+    {
+      "case": "Admin allowed admin",
+      "passed": true
+    },
+    {
+      "case": "Guest blocked admin/games",
+      "passed": true
+    },
+    {
+      "case": "Customer blocked admin/games",
+      "passed": true
+    },
+    {
+      "case": "Admin allowed admin/games",
+      "passed": true
+    },
+    {
+      "case": "Guest blocked admin/clientes",
+      "passed": true
+    },
+    {
+      "case": "Customer blocked admin/clientes",
+      "passed": true
+    },
+    {
+      "case": "Admin allowed admin/clientes",
+      "passed": true
+    },
+    {
+      "case": "Guest blocked admin/usuarios",
+      "passed": true
+    },
+    {
+      "case": "Customer blocked admin/usuarios",
+      "passed": true
+    },
+    {
+      "case": "Admin allowed admin/usuarios",
+      "passed": true
+    },
+    {
+      "case": "Guest blocked admin/categorias",
+      "passed": true
+    },
+    {
+      "case": "Customer blocked admin/categorias",
+      "passed": true
+    },
+    {
+      "case": "Admin allowed admin/categorias",
+      "passed": true
+    },
+    {
+      "case": "Guest blocked admin/pedidos",
+      "passed": true
+    },
+    {
+      "case": "Customer blocked admin/pedidos",
+      "passed": true
+    },
+    {
+      "case": "Admin allowed admin/pedidos",
+      "passed": true
+    },
+    {
+      "case": "Mutation rejects GET logout",
+      "passed": true
+    },
+    {
+      "case": "Mutation rejects GET cart/add",
+      "passed": true
+    },
+    {
+      "case": "Mutation rejects GET checkout",
+      "passed": true
+    },
+    {
+      "case": "Mutation rejects GET admin/games/save",
+      "passed": true
+    },
+    {
+      "case": "Mutation rejects GET admin/pedidos/delete",
+      "passed": true
+    },
+    {
+      "case": "CSRF missing rejected",
+      "passed": true
+    },
+    {
+      "case": "CSRF incorrect rejected",
+      "passed": true
+    },
+    {
+      "case": "Registration rejects two emails",
+      "passed": true
+    },
+    {
+      "case": "Registration rejects invalid email",
+      "passed": true
+    },
+    {
+      "case": "Registration rejects empty name",
+      "passed": true
+    },
+    {
+      "case": "Registration rejects long name",
+      "passed": true
+    },
+    {
+      "case": "Registration rejects short phone",
+      "passed": true
+    },
+    {
+      "case": "Registration rejects phone array",
+      "passed": true
+    },
+    {
+      "case": "Registration rejects short password",
+      "passed": true
+    },
+    {
+      "case": "Registration rejects confirmation mismatch",
+      "passed": true
+    },
+    {
+      "case": "Registration rejects blank password",
+      "passed": true
+    },
+    {
+      "case": "Registration rejects password bytes",
+      "passed": true
+    },
+    {
+      "case": "Customer registration creates account and client",
+      "passed": true
+    },
+    {
+      "case": "Duplicate normalized email",
+      "passed": true
+    },
+    {
+      "case": "Wrong login rejected",
+      "passed": true
+    },
+    {
+      "case": "New customer login works",
+      "passed": true
+    },
+    {
+      "case": "Category create",
+      "passed": true
+    },
+    {
+      "case": "Category read",
+      "passed": true
+    },
+    {
+      "case": "Category update and escaped HTML",
+      "passed": true
+    },
+    {
+      "case": "Category duplicate blocked",
+      "passed": true
+    },
+    {
+      "case": "Game invalid preco=-1",
+      "passed": true
+    },
+    {
+      "case": "Game invalid preco=1e3",
+      "passed": true
+    },
+    {
+      "case": "Game invalid preco=1.234",
+      "passed": true
+    },
+    {
+      "case": "Game invalid estoque=-1",
+      "passed": true
+    },
+    {
+      "case": "Game invalid estoque=1.5",
+      "passed": true
+    },
+    {
+      "case": "Game invalid estoque=1000001",
+      "passed": true
+    },
+    {
+      "case": "Game invalid categoria_id=999999",
+      "passed": true
+    },
+    {
+      "case": "Game invalid plataforma=invalid",
+      "passed": true
+    },
+    {
+      "case": "Game invalid titulo= ",
+      "passed": true
+    },
+    {
+      "case": "Game invalid link_loja=javascript:alert(1)",
+      "passed": true
+    },
+    {
+      "case": "Game invalid link_loja=https://user:pass@example.com",
+      "passed": true
+    },
+    {
+      "case": "Game invalid imagem=../index.php",
+      "passed": true
+    },
+    {
+      "case": "Game invalid imagem=cards",
+      "passed": true
+    },
+    {
+      "case": "Game create",
+      "passed": true
+    },
+    {
+      "case": "Game read",
+      "passed": true
+    },
+    {
+      "case": "Game update",
+      "passed": true
+    },
+    {
+      "case": "Category linked deletion blocked",
+      "passed": true
+    },
+    {
+      "case": "User create",
+      "passed": true
+    },
+    {
+      "case": "User read",
+      "passed": true
+    },
+    {
+      "case": "User update preserves password",
+      "passed": true
+    },
+    {
+      "case": "User delete",
+      "passed": true
+    },
+    {
+      "case": "Client create",
+      "passed": true
+    },
+    {
+      "case": "Client read",
+      "passed": true
+    },
+    {
+      "case": "Client update",
+      "passed": true
+    },
+    {
+      "case": "Client delete with account",
+      "passed": true
+    },
+    {
+      "case": "Own account cannot deactivate",
+      "passed": true
+    },
+    {
+      "case": "Own account cannot delete",
+      "passed": true
+    },
+    {
+      "case": "Cart add",
+      "passed": true
+    },
+    {
+      "case": "Cart insufficient stock",
+      "passed": true
+    },
+    {
+      "case": "Cart update",
+      "passed": true
+    },
+    {
+      "case": "Cart removal",
+      "passed": true
+    },
+    {
+      "case": "Guest cart permitted",
+      "passed": true
+    },
+    {
+      "case": "Guest checkout refused",
+      "passed": true
+    },
+    {
+      "case": "Checkout creates order and decrements stock",
+      "passed": true
+    },
+    {
+      "case": "Order total is server computed",
+      "passed": true
+    },
+    {
+      "case": "Repeat checkout idempotent",
+      "passed": true
+    },
+    {
+      "case": "Other customer cannot read order",
+      "passed": true
+    },
+    {
+      "case": "Other customer cannot cancel",
+      "passed": true
+    },
+    {
+      "case": "Cancel restores stock",
+      "passed": true
+    },
+    {
+      "case": "Repeated cancel no extra stock",
+      "passed": true
+    },
+    {
+      "case": "Game with history cannot delete",
+      "passed": true
+    },
+    {
+      "case": "Client with history cannot delete",
+      "passed": true
+    },
+    {
+      "case": "Canceled order can delete",
+      "passed": true
+    },
+    {
+      "case": "Order create draft without stock change",
+      "passed": true
+    },
+    {
+      "case": "Order read draft",
+      "passed": true
+    },
+    {
+      "case": "Order draft update",
+      "passed": true
+    },
+    {
+      "case": "Draft confirm deducts once",
+      "passed": true
+    },
+    {
+      "case": "Repeat confirm does not deduct",
+      "passed": true
+    },
+    {
+      "case": "Confirmed cannot delete",
+      "passed": true
+    },
+    {
+      "case": "Completed order cannot cancel",
+      "passed": true
+    },
+    {
+      "case": "Game delete without history",
+      "passed": true
+    },
+    {
+      "case": "Category delete without games",
+      "passed": true
+    },
+    {
+      "case": "Logout GET disallowed",
+      "passed": true
+    },
+    {
+      "case": "Logout removes admin access",
+      "passed": true
+    },
+    {
+      "case": "Invalid record game/0",
+      "passed": true
+    },
+    {
+      "case": "Invalid record game/-1",
+      "passed": true
+    },
+    {
+      "case": "Invalid record game/abc",
+      "passed": true
+    },
+    {
+      "case": "Invalid record game/999999",
+      "passed": true
+    },
+    {
+      "case": "Invalid record order/0",
+      "passed": true
+    },
+    {
+      "case": "Invalid record order/-1",
+      "passed": true
+    },
+    {
+      "case": "Invalid record order/abc",
+      "passed": true
+    },
+    {
+      "case": "Invalid record order/999999",
+      "passed": true
+    },
+    {
+      "case": "Invalid record admin/games/form/0",
+      "passed": true
+    },
+    {
+      "case": "Invalid record admin/games/form/-1",
+      "passed": true
+    },
+    {
+      "case": "Invalid record admin/games/form/abc",
+      "passed": true
+    },
+    {
+      "case": "Invalid record admin/games/form/999999",
+      "passed": true
+    },
+    {
+      "case": "Invalid record admin/usuarios/form/0",
+      "passed": true
+    },
+    {
+      "case": "Invalid record admin/usuarios/form/-1",
+      "passed": true
+    },
+    {
+      "case": "Invalid record admin/usuarios/form/abc",
+      "passed": true
+    },
+    {
+      "case": "Invalid record admin/usuarios/form/999999",
+      "passed": true
+    },
+    {
+      "case": "Invalid record admin/clientes/form/0",
+      "passed": true
+    },
+    {
+      "case": "Invalid record admin/clientes/form/-1",
+      "passed": true
+    },
+    {
+      "case": "Invalid record admin/clientes/form/abc",
+      "passed": true
+    },
+    {
+      "case": "Invalid record admin/clientes/form/999999",
+      "passed": true
+    },
+    {
+      "case": "Invalid record admin/categorias/form/0",
+      "passed": true
+    },
+    {
+      "case": "Invalid record admin/categorias/form/-1",
+      "passed": true
+    },
+    {
+      "case": "Invalid record admin/categorias/form/abc",
+      "passed": true
+    },
+    {
+      "case": "Invalid record admin/categorias/form/999999",
+      "passed": true
+    },
+    {
+      "case": "Invalid record admin/pedidos/form/0",
+      "passed": true
+    },
+    {
+      "case": "Invalid record admin/pedidos/form/-1",
+      "passed": true
+    },
+    {
+      "case": "Invalid record admin/pedidos/form/abc",
+      "passed": true
+    },
+    {
+      "case": "Invalid record admin/pedidos/form/999999",
+      "passed": true
+    },
+    {
+      "case": "Malformed POST admin/categorias/save",
+      "passed": true
+    },
+    {
+      "case": "Malformed POST admin/games/save",
+      "passed": true
+    },
+    {
+      "case": "Malformed POST admin/pedidos/save",
+      "passed": true
+    },
+    {
+      "case": "Malformed POST cart/add",
+      "passed": true
+    },
+    {
+      "case": "Malformed POST cart/update",
+      "passed": true
+    },
+    {
+      "case": "Inactive detail hidden",
+      "passed": true
+    },
+    {
+      "case": "Inactive game rejected from cart",
+      "passed": true
+    },
+    {
+      "case": "Cart rejects quantity 0",
+      "passed": true
+    },
+    {
+      "case": "Cart rejects quantity -1",
+      "passed": true
+    },
+    {
+      "case": "Cart rejects quantity 1.5",
+      "passed": true
+    },
+    {
+      "case": "Cart rejects quantity 100",
+      "passed": true
+    },
+    {
+      "case": "Cart rejects quantity bad",
+      "passed": true
+    },
+    {
+      "case": "Expired session requires login",
+      "passed": true
+    },
+    {
+      "case": "Deactivation revokes existing session",
+      "passed": true
+    },
+    {
+      "case": "Inactive account cannot login",
+      "passed": true
+    },
+    {
+      "case": "Empty store renders valid page",
+      "passed": true
+    },
+    {
+      "case": "Feature fallback remains available",
+      "passed": true
+    },
+    {
+      "case": "Concurrent last unit: only one purchase",
+      "passed": true
+    },
+    {
+      "case": "Concurrent workers complete without fatal errors",
+      "passed": true
+    },
+    {
+      "case": "JavaScript syntax",
+      "passed": true
+    },
+    {
+      "case": "Validation unit suite",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Controllers/AuthController.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Controllers/CategoriaController.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Controllers/ClienteController.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Controllers/CrudController.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Controllers/GameController.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Controllers/PedidoController.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Controllers/StoreController.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Controllers/UsuarioController.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Core/Auth.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Core/Database.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Core/Validation.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Core/View.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Models/Categoria.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Models/Cliente.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Models/Entity.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Models/Game.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Models/Pedido.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Models/Usuario.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Repositories/Repository.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Services/AccountService.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Services/OrderService.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Views/admin/dashboard.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Views/admin/form.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Views/admin/list.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Views/admin/order_form.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Views/admin/orders.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Views/auth.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Views/cart.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Views/details.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Views/error.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Views/home.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Views/layout/footer.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Views/layout/header.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Views/order.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Views/orders.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/Views/partials/card.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax app/bootstrap.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax config/database.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax config/local.example.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax index.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax tests/renderizacao.php",
+      "passed": true
+    },
+    {
+      "case": "PHP syntax tests/validacao.php",
+      "passed": true
+    }
+  ],
+  "browser": {
+    "results": [
+      {
+        "case": "Catalog category cycle 0",
+        "passed": true
+      },
+      {
+        "case": "Identical GET remains usable 0",
+        "passed": true
+      },
+      {
+        "case": "Catalog category cycle 1",
+        "passed": true
+      },
+      {
+        "case": "Identical GET remains usable 1",
+        "passed": true
+      },
+      {
+        "case": "Catalog category cycle 2",
+        "passed": true
+      },
+      {
+        "case": "Identical GET remains usable 2",
+        "passed": true
+      },
+      {
+        "case": "Catalog category cycle 3",
+        "passed": true
+      },
+      {
+        "case": "Identical GET remains usable 3",
+        "passed": true
+      },
+      {
+        "case": "Catalog category cycle 4",
+        "passed": true
+      },
+      {
+        "case": "Identical GET remains usable 4",
+        "passed": true
+      },
+      {
+        "case": "Catalog category cycle 5",
+        "passed": true
+      },
+      {
+        "case": "Identical GET remains usable 5",
+        "passed": true
+      },
+      {
+        "case": "Catalog category cycle 6",
+        "passed": true
+      },
+      {
+        "case": "Identical GET remains usable 6",
+        "passed": true
+      },
+      {
+        "case": "Catalog category cycle 7",
+        "passed": true
+      },
+      {
+        "case": "Identical GET remains usable 7",
+        "passed": true
+      },
+      {
+        "case": "Catalog category cycle 8",
+        "passed": true
+      },
+      {
+        "case": "Identical GET remains usable 8",
+        "passed": true
+      },
+      {
+        "case": "Catalog category cycle 9",
+        "passed": true
+      },
+      {
+        "case": "Identical GET remains usable 9",
+        "passed": true
+      },
+      {
+        "case": "Catalog category cycle 10",
+        "passed": true
+      },
+      {
+        "case": "Identical GET remains usable 10",
+        "passed": true
+      },
+      {
+        "case": "Catalog category cycle 11",
+        "passed": true
+      },
+      {
+        "case": "Identical GET remains usable 11",
+        "passed": true
+      },
+      {
+        "case": "Catalog category cycle 12",
+        "passed": true
+      },
+      {
+        "case": "Identical GET remains usable 12",
+        "passed": true
+      },
+      {
+        "case": "Catalog category cycle 13",
+        "passed": true
+      },
+      {
+        "case": "Identical GET remains usable 13",
+        "passed": true
+      },
+      {
+        "case": "Catalog category cycle 14",
+        "passed": true
+      },
+      {
+        "case": "Identical GET remains usable 14",
+        "passed": true
+      },
+      {
+        "case": "Catalog category cycle 15",
+        "passed": true
+      },
+      {
+        "case": "Identical GET remains usable 15",
+        "passed": true
+      },
+      {
+        "case": "Catalog category cycle 16",
+        "passed": true
+      },
+      {
+        "case": "Identical GET remains usable 16",
+        "passed": true
+      },
+      {
+        "case": "Catalog category cycle 17",
+        "passed": true
+      },
+      {
+        "case": "Identical GET remains usable 17",
+        "passed": true
+      },
+      {
+        "case": "Catalog category cycle 18",
+        "passed": true
+      },
+      {
+        "case": "Identical GET remains usable 18",
+        "passed": true
+      },
+      {
+        "case": "Catalog category cycle 19",
+        "passed": true
+      },
+      {
+        "case": "Identical GET remains usable 19",
+        "passed": true
+      },
+      {
+        "case": "Catalog category cycle 20",
+        "passed": true
+      },
+      {
+        "case": "Identical GET remains usable 20",
+        "passed": true
+      },
+      {
+        "case": "Catalog category cycle 21",
+        "passed": true
+      },
+      {
+        "case": "Identical GET remains usable 21",
+        "passed": true
+      },
+      {
+        "case": "Catalog category cycle 22",
+        "passed": true
+      },
+      {
+        "case": "Identical GET remains usable 22",
+        "passed": true
+      },
+      {
+        "case": "Catalog category cycle 23",
+        "passed": true
+      },
+      {
+        "case": "Identical GET remains usable 23",
+        "passed": true
+      },
+      {
+        "case": "Catalog category cycle 24",
+        "passed": true
+      },
+      {
+        "case": "Identical GET remains usable 24",
+        "passed": true
+      },
+      {
+        "case": "Catalog category cycle 25",
+        "passed": true
+      },
+      {
+        "case": "Identical GET remains usable 25",
+        "passed": true
+      },
+      {
+        "case": "Sort price_asc",
+        "passed": true
+      },
+      {
+        "case": "Sort price_desc",
+        "passed": true
+      },
+      {
+        "case": "Sort title",
+        "passed": true
+      },
+      {
+        "case": "No results has usable search",
+        "passed": true
+      },
+      {
+        "case": "Four featured games",
+        "passed": true
+      },
+      {
+        "case": "Carousel rotates with reduced motion",
+        "passed": true
+      },
+      {
+        "case": "Manual carousel pause",
+        "passed": true
+      },
+      {
+        "case": "Carousel resumes",
+        "passed": true
+      },
+      {
+        "case": "Browser finds all 50 detail links",
+        "passed": true
+      },
+      {
+        "case": "Detail 25 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 9 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 39 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 45 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 28 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 32 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 37 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 5 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 41 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 49 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 46 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 1 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 30 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 17 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 19 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 42 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 2 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 12 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 14 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 33 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 18 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 44 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 27 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 8 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 34 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 16 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 43 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 35 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 48 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 23 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 50 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 13 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 29 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 31 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 20 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 51 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 6 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 36 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 21 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 10 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 38 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 3 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 40 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 22 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 26 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 11 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 15 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 24 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 47 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 7 at 1440",
+        "passed": true
+      },
+      {
+        "case": "Detail 25 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 9 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 39 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 45 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 28 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 32 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 37 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 5 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 41 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 49 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 46 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 1 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 30 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 17 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 19 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 42 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 2 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 12 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 14 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 33 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 18 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 44 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 27 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 8 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 34 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 16 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 43 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 35 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 48 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 23 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 50 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 13 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 29 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 31 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 20 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 51 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 6 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 36 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 21 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 10 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 38 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 3 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 40 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 22 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 26 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 11 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 15 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 24 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 47 at 390",
+        "passed": true
+      },
+      {
+        "case": "Detail 7 at 390",
+        "passed": true
+      },
+      {
+        "case": "Customer login in browser",
+        "passed": true
+      },
+      {
+        "case": "Add to cart in browser",
+        "passed": true
+      },
+      {
+        "case": "Cart quantity update browser",
+        "passed": true
+      },
+      {
+        "case": "Checkout in browser",
+        "passed": true
+      },
+      {
+        "case": "Admin repeated search games",
+        "passed": true
+      },
+      {
+        "case": "Admin create form games",
+        "passed": true
+      },
+      {
+        "case": "Admin repeated search categorias",
+        "passed": true
+      },
+      {
+        "case": "Admin create form categorias",
+        "passed": true
+      },
+      {
+        "case": "Admin repeated search clientes",
+        "passed": true
+      },
+      {
+        "case": "Admin create form clientes",
+        "passed": true
+      },
+      {
+        "case": "Admin repeated search usuarios",
+        "passed": true
+      },
+      {
+        "case": "Admin create form usuarios",
+        "passed": true
+      },
+      {
+        "case": "Edit existing values games",
+        "passed": true
+      },
+      {
+        "case": "Image selector excludes directories",
+        "passed": true
+      },
+      {
+        "case": "Edit existing values categorias",
+        "passed": true
+      },
+      {
+        "case": "Edit existing values usuarios",
+        "passed": true
+      },
+      {
+        "case": "Edit existing values clientes",
+        "passed": true
+      },
+      {
+        "case": "Duplicate category retains entered form data",
+        "passed": true
+      },
+      {
+        "case": "Draft edit restores customer and quantities",
+        "passed": true
+      },
+      {
+        "case": "Cancel deletion keeps button enabled",
+        "passed": true
+      },
+      {
+        "case": "Back navigation restores search",
+        "passed": true
+      },
+      {
+        "case": "Mobile no horizontal overflow home",
+        "passed": true
+      },
+      {
+        "case": "Mobile no horizontal overflow cart",
+        "passed": true
+      },
+      {
+        "case": "Mobile no horizontal overflow register",
+        "passed": true
+      },
+      {
+        "case": "Mobile no horizontal overflow admin",
+        "passed": true
+      },
+      {
+        "case": "Mobile no horizontal overflow admin/games",
+        "passed": true
+      },
+      {
+        "case": "Mobile no horizontal overflow admin/pedidos",
+        "passed": true
+      },
+      {
+        "case": "Store works without JavaScript",
+        "passed": true
+      },
+      {
+        "case": "Invalid registration does not disable button",
+        "passed": true
+      },
+      {
+        "case": "Corrected registration submits successfully",
+        "passed": true
+      },
+      {
+        "case": "No JavaScript errors",
+        "passed": true
+      }
+    ],
+    "errors": []
+  },
+  "validation_assertions": 37,
+  "rendering_assertions": 8,
+  "limits": [
+    "Não executado no XAMPP do aluno nem no projetor.",
+    "Servidor PHP embutido: regras .htaccess do Apache revisadas, mas não executadas neste ambiente.",
+    "Os testes não constituem garantia de ausência de defeitos."
+  ]
+}

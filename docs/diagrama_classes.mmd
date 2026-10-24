@@ -1,0 +1,36 @@
+classDiagram
+ direction TB
+ class Entity {
+  <<abstract>>
+  +listar() array
+  +buscarPorId(id) array
+  +cadastrar(dados) int
+  +atualizar(id, dados) void
+  +excluir(id) void
+ }
+ class Usuario {
+  +porEmail(email) array
+ }
+ class Cliente {
+  +porUsuario(id) array
+  +listarDetalhes() array
+ }
+ class Game {
+  +catalogo(filtros) array
+  +destaques() array
+  +detalhes(id) array
+ }
+ class Categoria
+ class Pedido {
+  +itens(id) array
+  +porUsuario(id) array
+ }
+ Entity <|-- Usuario
+ Entity <|-- Cliente
+ Entity <|-- Game
+ Entity <|-- Categoria
+ Entity <|-- Pedido
+ Usuario "1" --> "0..1" Cliente : conta
+ Categoria "1" --> "0..*" Game : classifica
+ Cliente "1" --> "0..*" Pedido : realiza
+ Pedido "0..*" --> "1..*" Game : itens

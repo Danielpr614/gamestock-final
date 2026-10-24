@@ -1,0 +1,50 @@
+erDiagram
+ usuarios ||--o| clientes : possui
+ clientes ||--o{ pedidos : realiza
+ categorias ||--o{ games : classifica
+ pedidos ||--|{ itens_pedido : contem
+ games ||--o{ itens_pedido : referencia
+ usuarios {
+  int id PK
+  varchar nome
+  varchar email UK
+  varchar senha
+  enum perfil
+  boolean ativo
+ }
+ clientes {
+  int id PK
+  int usuario_id FK,UK
+  varchar telefone
+ }
+ categorias {
+  int id PK
+  varchar nome UK
+  varchar descricao
+ }
+ games {
+  int id PK
+  int categoria_id FK
+  varchar titulo
+  enum plataforma
+  decimal preco
+  int estoque
+  varchar imagem
+  boolean ativo
+ }
+ pedidos {
+  int id PK
+  int cliente_id FK
+  enum status
+  decimal total
+  char chave UK
+ }
+ itens_pedido {
+  int id PK
+  int pedido_id FK
+  int game_id FK
+  int quantidade
+  decimal preco_unitario
+  varchar titulo
+  varchar plataforma
+ }
